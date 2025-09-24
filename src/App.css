@@ -47,6 +47,12 @@
   color: #111 !important;
 }
 
+/* winning squares highlight */
+.square--win {
+  background: #d4ffcf;
+  border-color: #3aa655;
+}
+
 .game-info {
   min-width: 200px;
 }
