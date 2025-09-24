@@ -24,6 +24,9 @@
 }
 
 .square {
+  color: #111; 
+  padding: 0;
+  line-height: 1;
   width: 64px;
   height: 64px;
   font-size: 24px;
@@ -40,15 +43,21 @@
   background: #f0f0f0;
 }
 
+.square, .game-info button {
+  color: #111 !important;
+}
+
 .game-info {
   min-width: 200px;
 }
 
 .game-info ol {
+  color: #ddd; 
   padding-left: 20px;
 }
 
 .game-info button {
+  color: #111;
   margin-bottom: 8px;
   padding: 4px 8px;
   border: 1px solid #999;
@@ -62,7 +71,8 @@
 }
 
 .game-info button:disabled {
-  font-weight: bold;
+  color: #555;          /* readable gray for the current move */
+  font-weight: 700;
   background: #eaeaea;
   cursor: default;
 }
